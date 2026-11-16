@@ -1,0 +1,95 @@
+[
+  {
+    "id": "inter",
+    "source": "https://inter.co/favicon.svg",
+    "file": "inter.svg",
+    "bytes": 531
+  },
+  {
+    "id": "bradesco",
+    "source": "https://assets.bradesco/content/dam/portal-bradesco/assets/common/img/bra-logo.png",
+    "file": "bradesco.png",
+    "bytes": 2340
+  },
+  {
+    "id": "neon",
+    "source": "https://static-portal.neon.com.br/assets/logos/neon/logo-white.svg",
+    "file": "neon.svg",
+    "bytes": 2276
+  },
+  {
+    "id": "infinitepay",
+    "source": "https://cdn.prod.website-files.com/65c1399ac999a342139b5069/65c1399ac999a342139b563f_logo_branco_brlc_infinitepay.svg",
+    "file": "infinitepay.svg",
+    "bytes": 3742
+  },
+  {
+    "id": "santander",
+    "source": "https://www.santander.com.br/favicon.ico",
+    "file": "santander.ico",
+    "bytes": 22486
+  },
+  {
+    "id": "nubank",
+    "source": "https://nubank.com.br/",
+    "file": "nubank.svg",
+    "note": "SVG do cabe\u00e7alho oficial, preenchimento branco para banner"
+  },
+  {
+    "id": "itau",
+    "source": "https://www.itau.com.br/media/dam/m/c5a2dcc08dba709/original/logo-192px.png",
+    "file": "itau.png"
+  },
+  {
+    "id": "caixa",
+    "file": "caixa.png",
+    "source": "https://www.caixa.gov.br/Style%20Library/images/logo-caixa-branco.png",
+    "bytes": 552
+  },
+  {
+    "id": "bb",
+    "file": "bb.ico",
+    "source": "https://www.bb.com.br/site/wp-content/themes/portal40/img/icn-am.ico",
+    "bytes": 15086
+  },
+  {
+    "id": "btg",
+    "file": "btg.png",
+    "source": "https://banking.btgpactual.com/favicon.png?v=1",
+    "bytes": 2943
+  },
+  {
+    "id": "mercadopago",
+    "file": "mercadopago.svg",
+    "source": "https://http2.mlstatic.com/frontend-assets/mp-web-navigation/ui-navigation/7.8.2/mercadopago/header/logo-v3-full.svg",
+    "bytes": 11664
+  },
+  {
+    "id": "pagbank",
+    "file": "pagbank.svg",
+    "source": "https://acq-static-pages.pagseguro.com.br/static-pages/website/website-home-pages/_next/static/media/logo-pagbank-negative-filled-20.4c996066.svg",
+    "bytes": 8249
+  },
+  {
+    "id": "sicoob",
+    "file": "sicoob.png",
+    "source": "https://www.sicoob.com.br/o/sicoob-theme/images/favicon/android-icon-192x192.png",
+    "bytes": 6270
+  },
+  {
+    "id": "sicredi",
+    "file": "sicredi.svg",
+    "source": "https://www.sicredi.com.br/site/static/assets/header/logo-svg2.svg",
+    "bytes": 5990
+  },
+  {
+    "id": "c6",
+    "file": "c6.ico",
+    "source": "https://www.c6bank.com.br/favicon.ico"
+  },
+  {
+    "id": "picpay",
+    "file": "picpay.png",
+    "source": "https://picpay.com/media_1643c867b457f55b2aeeb4da1530985c19a1d472d.png?width=750&format=png&optimize=medium"
+  }
+]

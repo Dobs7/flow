@@ -1,0 +1,1 @@
+if(!localStorage.getItem('flow-design-demo-v1'))localStorage.setItem('flow-design-demo-v1',JSON.stringify({"tasks": [], "habits": [], "routine": [], "coins": 0, "xp": 0, "extra": {"historySeeded": true, "shopping": [], "marketHistory": [], "goals": [], "financeV3": {"items": [], "subs": []}, "accountsV1": []}}));

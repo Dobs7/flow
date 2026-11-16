@@ -1,0 +1,23 @@
+#flow-shell[hidden], #flow-loader[hidden], #flow-loader button[hidden] { display: none; }
+#flow-shell { display: contents; }
+#flow-loader {
+  max-width: 32rem;
+  margin: 18vh auto 0;
+  padding: 2rem;
+  line-height: 1.55;
+}
+#flow-loader h1 { font-size: 24px; font-weight: 700; }
+#flow-loader p { font-size: 16px; }
+#flow-loader button { margin-top: 1rem; }
+.ledger-heading h2 { font-size: 20px; font-weight: 700; }
+.ledger-heading p, .ledger-controls button, .ledger-controls select { font-size: 13px; font-weight: 600; }
+.ledger-panel .operational-table th,
+.ledger-panel .operational-table td { font-size: 14px; font-weight: 550; line-height: 1.4; }
+.ledger-panel .operational-table th { font-weight: 650; }
+.ledger-panel .operational-table td strong { font-size: 15px; font-weight: 700; }
+.ledger-panel .operational-table .status { font-size: 13px; font-weight: 650; }
+.ledger-panel .ledger-footer small { font-size: 12px; }
+.ledger-panel .ledger-footer strong { font-size: 15px; }
+:root:not([data-theme=light]) .ledger-panel .operational-table th,
+:root:not([data-theme=light]) .ledger-panel .operational-table td,
+:root:not([data-theme=light]) .ledger-heading p { color: #c5c9cf; }

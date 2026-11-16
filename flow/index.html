@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101114">
+  <meta name="flow-project" content="flow-principal-local">
+  <title>Flow</title>
+  <link rel="stylesheet" href="style.css?v=162">
+  <link rel="stylesheet" href="design-v2.css?v=162">
+  <link rel="stylesheet" href="light-theme.css?v=162">
+<link rel="stylesheet" href="flow-readable.css"></head>
+<body>
+<section id="flow-loader" role="status" aria-live="polite">
+ <h1>Carregando seus dados</h1><p>Abrindo o Flow neste computador…</p>
+ <button class="button" type="button" hidden>Tentar novamente</button>
+</section>
+<div id="flow-shell" hidden>
+  <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+  <nav class="dock glass" aria-label="Navegação principal">
+    <a class="brand" href="#inicio" aria-label="Flow, início"><span class="brand-mark">f<span>↗</span></span></a>
+    <div class="dock-links" id="navigation"></div>
+    <button class="dock-item preferences" data-action="preferences" aria-label="Ajustar aparência" title="Aparência"><span data-icon="sliders"></span><span class="nav-label">Aparência</span></button>
+    <button class="avatar" data-action="profile" aria-label="Perfil deste computador">FL</button>
+  </nav>
+  <div class="shell">
+    <header class="topbar">
+      <div class="breadcrumb"><span>Flow</span><span class="slash">/</span><span id="breadcrumb">Visão geral</span><span class="preview-badge">Local</span></div>
+      <div class="top-actions"><span class="today-top">Quinta, 22 de outubro</span><button class="status-pill" data-action="profile" aria-label="Ver progresso"><span data-icon="sparkles"></span><span>Nível <b id="level">9</b></span><span class="level-track"><i></i></span></button><span class="coins"><span data-icon="coins"></span><b id="coins">942</b></span><button class="icon-button" data-action="preferences" aria-label="Aparência"><span data-icon="sliders"></span></button></div>
+    </header>
+    <main id="content" tabindex="-1"></main>
+    <footer>Flow <span>•</span> Seu dia, no seu ritmo. <span class="footer-note">Dados locais deste computador.</span></footer>
+  </div>
+  <dialog id="modal" class="glass"><div id="modal-content"></div></dialog>
+  <div id="toast" class="toast glass" role="status" aria-live="polite"></div>
+</div>
+  <script type="application/x-flow" data-flow-src="app.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="modules.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="finance-v3.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="quality-v4.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="dashboard-v4.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="charts-v4.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="backup.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="refinements-v7.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="review-v8.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="sounds-v9.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="category-v10.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="insights-v11.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="task-editor-v12.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="card-interactions-v12.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="calendar-v13.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="theme-v14.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="banks-v15.js?v=162"></script>
+  <script type="application/x-flow" data-flow-src="accounts-v16.js?v=162"></script>
+<script type="application/x-flow" data-flow-src="flow-official.js"></script><script type="application/x-flow" data-flow-src="desktop-machine.js"></script><script type="application/x-flow" data-flow-src="flow-usability.js"></script><script type="application/x-flow" data-flow-src="flow-google-calendar.js"></script><script src="flow-local.js"></script><script src="flow-loader.js"></script></body>
+</html>
+
+
+

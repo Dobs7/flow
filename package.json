@@ -1,0 +1,42 @@
+{
+  "name": "flow-desktop",
+  "productName": "Flow",
+  "version": "1.1.1",
+  "private": true,
+  "main": "main.cjs",
+  "author": "Dobs by Azura",
+  "description": "Organização pessoal com tarefas, hábitos, rotina e finanças locais.",
+  "scripts": {
+    "start": "electron .",
+    "package:win": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "45.0.0",
+    "electron-builder": "26.18.0"
+  },
+  "build": {
+    "appId": "com.flow.desktop",
+    "productName": "Flow",
+    "copyright": "Copyright © 2026 Dobs by Azura. Créditos de terceiros preservados.",
+    "electronVersion": "45.0.0",
+    "compression": "normal",
+    "directories": {
+      "output": "../build"
+    },
+    "files": [
+      "*.cjs",
+      "mode.txt",
+      "host-config.json",
+      "launcher.html",
+      "app-icon.ico",
+      "flow/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "app-icon.ico",
+      "artifactName": "Flow-${version}-Windows.${ext}",
+      "signExecutable": false
+    }
+  }
+}
